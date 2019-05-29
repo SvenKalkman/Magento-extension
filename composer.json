@@ -1,0 +1,26 @@
+{
+    "name": "magento/module-microcash",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "102.0.*",
+        "magento/magento-composer-installer": "*",
+        "php": "~7.1.3||~7.2.0"
+    },
+    "type": "composer-plugin",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Microcash\\": ""
+        }
+    },
+    "version": "100.3.1"
+}
