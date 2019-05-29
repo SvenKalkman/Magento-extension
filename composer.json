@@ -1,5 +1,5 @@
 {
-    "name": "magento/module-microcash",
+    "name": "svenkalkman/module-microcash",
     "description": "N/A",
     "config": {
         "sort-packages": true
