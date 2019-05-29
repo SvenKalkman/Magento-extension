@@ -2,7 +2,7 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
 	\Magento\Framework\Component\ComponentRegistrar::MODULE,
-	'Microcash', 
+	'Microcash_Module', 
 	__DIR__
 );
 ?>
