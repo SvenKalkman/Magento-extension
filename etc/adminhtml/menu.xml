@@ -6,7 +6,6 @@
              title="MicroCash" 
              module="Microcash_Module" 
              sortOrder="10" 
-             action="" 
              resource="Microcash_Module::Menu"/>     
          <add 
             id="Microcash_Module::SubMenu" 
@@ -14,7 +13,6 @@
             module="Microcash_Module" 
             sortOrder="20" 
             parent="Microcash_Module::Menu" 
-            action="" 
             resource="Microcash_Module::SubMenu"/>   
     </menu>
 </config>
