@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<menu>
+		<add 
+             id="Microcash_Module::Menu" 
+             title="MicroCash" 
+             module="Microcash_Module" 
+             sortOrder="10" 
+             action="" 
+             resource="Microcash_Module::Menu"/>     
+         <add 
+            id="Microcash_Module::SubMenu" 
+            title="MicroCash get products" 
+            module="Microcash_Module" 
+            sortOrder="20" 
+            parent="Microcash_Module::Menu" 
+            action="" 
+            resource="Microcash_Module::SubMenu"/>   
+    </menu>
+</config>
