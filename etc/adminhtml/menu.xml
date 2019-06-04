@@ -2,6 +2,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
 	<menu>
 		<add id="Microcash_Module::Menu" title="Microcash" module="Microcash" sortOrder="10" resource="Microcash_Module::Menu"/>    
-		<add id="Microcash_Module::Submenu" title="Synchroniseer artikelen" module="Microcash" sortOrder="20" parent="Microcash_Module::Menu" resource="Microcash_Module::Submenu"/>		
+		<add id="Microcash_Module::Submenu" title="Synchroniseer artikelen" module="Microcash" sortOrder="20" parent="Magento_Sales::sales_operation" resource="Microcash_Module::Submenu"/>		
     </menu>
 </config>
