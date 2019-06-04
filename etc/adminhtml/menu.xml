@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
 	<menu>
-		<add id="Microcash::menu1" title="MicroCash" module="Microcash" sortOrder="10" resource="Microcash::Menu1"/>     
-        <add id="Microcash::SubMenu1" title="MicroCash-get-products" module="Microcash" sortOrder="20" parent="Microcash::Menu1" resource="Microcash::SubMenu1"/>   
+		<add id="Microcash::Menu1" title="Microcash" module="Microcash" sortOrder="10" resource="Microcash::Menu1"/>     
     </menu>
 </config>
