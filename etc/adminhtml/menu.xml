@@ -2,17 +2,17 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
 	<menu>
 		<add 
-             id="Microcash_Module::Menu" 
+             id="Microcash::Menu" 
              title="MicroCash" 
-             module="Microcash_Module" 
+             module="Microcash" 
              sortOrder="10" 
-             resource="Microcash_Module::Menu"/>     
+             resource="Microcash::Menu"/>     
          <add 
-            id="Microcash_Module::SubMenu" 
+            id="Microcash::SubMenu" 
             title="MicroCash get products" 
-            module="Microcash_Module" 
+            module="Microcash" 
             sortOrder="20" 
-            parent="Microcash_Module::Menu" 
-            resource="Microcash_Module::SubMenu"/>   
+            parent="Microcash::Menu" 
+            resource="Microcash::SubMenu"/>   
     </menu>
 </config>
